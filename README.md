@@ -1,6 +1,6 @@
 # prometheus-influx-raspberrypi
 
-
+Integrating influx and prometheus using influx's remote-write #experimental
 
 ## Create influxdb docker container and create a database 
 
