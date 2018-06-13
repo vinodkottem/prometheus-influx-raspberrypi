@@ -2,6 +2,11 @@
 
 Integrating influx and prometheus using influx's remote-write #experimental
 
+```
+remote_write:
+  - url: http://<INFLUXDB_HOST>:8086/api/v1/prom/write?u=<DB_USER>&p=<DB_PASSWORD>&db=<DB_NAME>
+```
+
 ## Create influxdb docker container and create a database 
 
 ### Create influx container
